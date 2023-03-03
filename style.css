@@ -1,0 +1,339 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.header {
+  display: flex;
+  padding: 40px;
+  justify-content: space-between;
+  width: 100%;
+}
+.header img {
+  width: 150px;
+}
+.links a {
+  padding-right: 10px;
+  text-decoration: none;
+}
+.top img {
+  width: 600px;
+  height: 400px;
+}
+.top {
+  display: flex;
+  padding: 40px;
+  margin-bottom: 40px;
+}
+.top form {
+  display: flex;
+}
+.top #error-message1 {
+  color: red;
+  font-size: 14px;
+  visibility: hidden;
+}
+.text1 h2 {
+  font-size: 46px;
+  margin-bottom: 25px;
+  font-weight: 700;
+  color: hsl(243, 87%, 12%);
+}
+.text1 p {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  color: hsl(243, 87%, 12%);
+}
+.top .errors input {
+  border: 2px solid red;
+}
+
+.top input {
+  height: 35px;
+  width: 270px;
+  padding: 7px;
+}
+.top button {
+  width: 170px;
+  height: 35px;
+  margin-left: 20px;
+  background-color: hsl(224, 93%, 58%);
+  border: none;
+  color: white;
+  border-radius: 4px;
+}
+#middle-image {
+  width: 600px;
+  height: 400px;
+  padding-left: 100px;
+}
+.mid {
+  display: flex;
+  padding: 40px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-color: hsl(240, 76%, 98%);
+}
+.mid::before {
+  content: "";
+  background: url(./images/bg-curve-desktop.svg);
+  background-size: cover;
+  position: absolute;
+  top: -80px;
+  left: 0;
+  height: 80px;
+  width: 100%;
+}
+.text2 h2 {
+  font-size: 42px;
+  margin-bottom: 25px;
+  font-weight: 700;
+  color: hsl(243, 87%, 12%);
+}
+.text2 p {
+  font-size: 19px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  color: hsl(243, 87%, 12%);
+}
+.container {
+  background-color: white;
+  width: 250px;
+  padding: 12px;
+  border-radius: 10px;
+  margin-top: 12px;
+  color: hsl(243, 87%, 12%);
+}
+.container p {
+  font-size: 16px;
+  font-weight: 400;
+}
+.profile {
+  display: flex;
+  align-items: flex-start;
+}
+.profile img {
+  height: 35px;
+  border-radius: 50px;
+}
+.profile-text {
+  font-size: 10px;
+  margin-left: 10px;
+}
+.profile-text p {
+  font-size: 12px;
+}
+.last {
+  display: flex;
+  background-color: hsl(238, 22%, 44%);
+  height: 300px;
+  padding: 70px;
+  justify-content: space-between;
+}
+
+.form input {
+  width: 350px;
+  height: 40px;
+  padding: 5px;
+}
+#error-message2 {
+  color: hsl(240, 75%, 98%);
+  margin-bottom: 12px;
+  font-size: 14px;
+  visibility: hidden;
+}
+.form button {
+  height: 35px;
+  width: 180px;
+  color: hsl(240, 75%, 98%);
+  background-color: hsl(224, 93%, 58%);
+  border: none;
+  border-radius: 5px;
+}
+.last h2 {
+  color: hsl(240, 75%, 98%);
+  font-size: 35px;
+  margin-bottom: 10px;
+  
+}
+.form {
+  padding-left: 60px;
+}
+.last-text {
+  width: 450px;
+  color: hsl(240, 75%, 98%);
+}
+.footer {
+  background-color: hsl(243, 87%, 12%);
+  padding: 30px;
+  color: hsl(240, 75%, 98%);
+  padding-top: 50px;
+  padding-left: 60px;
+}
+.f1 {
+  display: flex;
+  justify-content: space-between;
+}
+.contact {
+  display: flex;
+  margin-bottom: 15px;
+}
+.contact p {
+  margin-left: 10px;
+  font-weight: 400;
+}
+.others p {
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+#footer-logo {
+  margin-bottom: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+.others p:hover {
+  cursor: pointer;
+  color: hsl(0, 0%, 75%);
+}
+
+
+
+@media(max-width:480px) {
+   body {
+    justify-content: center;
+    align-items: center;
+    
+   }
+    .header {
+        display: flex;
+        padding: 30px;
+        justify-content: space-between;
+      }
+    .header img {
+        width: 80px;
+      }
+      .links a {
+        padding-right: 5px;
+        text-decoration: none;
+      }
+      .top {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 40px;
+        margin-bottom: 40px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      .top img {
+        width: 80%;
+        height: 300px;
+        margin-bottom: 20px;
+        justify-content: center;
+      }
+      .text1 h2 {
+        font-size: 22px;
+        margin-bottom: 25px;
+    
+      }
+      .text1 p {
+        font-size: 18px;
+        margin-bottom: 18px;
+      }
+      .top form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+.top input {
+    height: 35px;
+  
+    
+    
+  }
+  .top button {
+    width: 270px;
+    margin-left: 0px;
+    
+  }
+  .mid {
+    flex-direction: column-reverse;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  #middle-image {
+    width: 80%;
+    height: 300px;
+    padding-left: 0;
+  }
+  .mid::before {
+    content: "";
+    background: url(./images/bg-curve-mobile.svg);
+    background-size: cover;
+    position: absolute;
+    top: -50px;
+    left: 0;
+    height: 80px;
+    width: 100%;
+  }
+  .container{
+    text-align: left;
+    margin: auto;
+
+  }
+  .text2 h2 {
+    font-size: 35px;
+    margin-bottom: 25px;
+  }
+  .text2 p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  .text2 a {
+    margin-bottom: 20px;
+  }
+  
+  .last {
+    flex-direction: column;
+    padding: 30px;
+    text-align: center;
+    height: 100%;
+  }
+  .last-text {
+    width: 90%;
+    margin-bottom: 15px;
+    
+  }
+  
+.form input {
+    width: 80%;
+  }
+  .form{
+    padding-left: 0;
+  }
+}
+.form button{
+    width: 80%;
+}
+.others {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.contact p {
+  font-size: 12px;
+}
+.footer {
+  padding: 20px;
+}
+.f1 {
+  flex-direction: column;
+}
