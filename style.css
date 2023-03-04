@@ -178,6 +178,7 @@ body {
 .f1 {
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
 }
 .contact {
   display: flex;
@@ -254,10 +255,7 @@ button:hover {
       }
       
 .top input {
-    height: 35px;
-  
-    
-    
+    height: 35px; 
   }
   .top button {
     width: 270px;
@@ -320,7 +318,6 @@ button:hover {
   .form{
     padding-left: 0;
   }
-}
 .form button{
     width: 80%;
 }
@@ -336,4 +333,5 @@ button:hover {
 }
 .f1 {
   flex-direction: column;
+}
 }
