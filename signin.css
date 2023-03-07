@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(243, 87%, 12%);
+    font-size: 20px;
+}
+.container { 
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 150px;
+    padding: 20px;
+    background-color: azure;
+    border-radius: 10px;
+    font-size: 20px;
+}
+input {
+    margin-bottom: 20px;
+}
+button {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    font-size: 15px;
+    color: white;
+}
+ .inputs input{
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px hsl(224, 93%, 58%) solid;
+ }
+ p {
+    color: hsl(224, 93%, 58%);
+ }
+ label {
+    color: hsl(224, 93%, 58%);
+ }

@@ -203,6 +203,12 @@ button:hover {
   cursor: pointer;
   color: hsl(0, 0%, 75%);
 }
+.header a:hover {
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+border-radius: 5px;
+}
 
 
 
